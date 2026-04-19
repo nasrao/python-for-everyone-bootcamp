@@ -2,11 +2,11 @@
 
 **Due:** Wednesday, April 22, 2026 — 12:00 PM (Africa/Mogadishu / EAT)
 
-**Goal:** One runnable program that uses variables, `input`/`print`, branching, and at least one loop—covering the core outcomes of Sections 1 and 2.
+**Goal:** One runnable program that uses variables, `input`/`print`, and branching—covering the core outcomes of Sections 1 and 2.
 
 **Sections covered:** **Section 1 — Python Foundations** and **Section 2 — Control Flow**
 
-Build a small **text-based quiz** in Python. You combine ideas from both sections: variables, input and output, strings and numbers, comments, then branching, comparisons, and at least one loop.
+Build a small **text-based quiz** in Python. You combine ideas from both sections: variables, input and output, strings and numbers, comments, then branching and comparisons.
 
 ---
 
@@ -16,8 +16,8 @@ Build a small **text-based quiz** in Python. You combine ideas from both section
 |----------------|----------------|
 | Running a `.py` script | `if` / `elif` / `else` |
 | `print` and `input()` | Comparisons (`==`, etc.) |
-| Variables and clear names | `for` or `while` (your choice where it fits) |
-| Comments (`# ...`) | Optional: `and` / `or`, `break`, or `range` if helpful |
+| Variables and clear names | Optional: `and` / `or`, nested `if` |
+| Comments (`# ...`) | Compound assignment (`+=`, etc.) for the score |
 
 ---
 
@@ -34,7 +34,7 @@ Submit **`quiz.py`** only (one file).
 4. **Final message** — After the last question, print the user’s **name** and **final score** (for example: `3 out of 3` or `2 out of 3`).
 5. **Comments** — Add a short comment at the top of the file (your name or alias, and one line describing the program).
 
-**Stretch (optional):** **Play again** with a **`while`** loop, or number questions with **`for`** + **`range`**.
+**Stretch (optional):** Use **`and`** or **`or`** in at least one condition (for example, accept `"y"` **or** `"yes"` as correct), or add a **nested** question (only ask follow-up when the first answer matches).
 
 ---
 
